@@ -1,0 +1,33 @@
+{
+  "flightSearch": {
+    "departureDate": "19, الجمعة، ١٨ يوليو ٢٠٢٥",
+    "returnDate": "20, الجمعة، ١٨ يوليو ٢٠٢٥",
+    "resultText": "أفضل",
+    "name": "ahmed Mostafa",
+    "email": "ahmedmostafa@gmial.com",
+    "countryCode": "966",
+    "phoneNumber": "55008765",
+    "additionalName": "ahmed",
+    "shortName": "mostafa",
+    "birthDate": "١٩‏/٧‏/٢٠٠٠",
+    "idNumber": "098765432123",
+    "nationality": "Saudi",
+    "residenceCountry": "Saudi",
+    "successMessage": "success",
+    "swipeCoordinates": [
+      {"startX": 353, "startY": 729, "endX": 367, "endY": 494},
+      {"startX": 365, "startY": 707, "endX": 365, "endY": 494},
+      {"startX": 337, "startY": 670, "endX": 337, "endY": 525},
+      {"startX": 334, "startY": 987, "endX": 323, "endY": 609},
+      {"startX": 334, "startY": 987, "endX": 323, "endY": 609},
+      {"startX": 465, "startY": 975, "endX": 467, "endY": 568}
+    ],
+    "tapCoordinates": {"x": 474, "y": 749}
+  },
+  "hotelSearch": {
+    "destination": "باريس",
+    "checkInDate": "الأربعاء, ٣٠ يوليو ٢٠٢٥",
+    "checkOutDate": "الخميس, ٣١ يوليو ٢٠٢٥",
+    "resultText": "الفنادق المتاحة"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": true,
+  "offlineMode": true,
+  "configuration": {
+    "settings": {
+      "theme": "Dark",
+      "documentTitle": "Amazon_automation task",
+      "encoding": "utf-8",
+      "reportName": "Ahmed",
+      "dashboard": true
+    }
+  },
+  "thumbnailForBase64": true,
+  "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
+  "js": "",
+  "css": ""
+}

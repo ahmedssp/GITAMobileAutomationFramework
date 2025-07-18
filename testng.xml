@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/A-Abdelsalam/Desktop/test011"><classes><class name="Test.Test2"><methods><include name="testFlightSearch"/><include name="testHotelSearch"/></methods></class></classes></test></suite>
