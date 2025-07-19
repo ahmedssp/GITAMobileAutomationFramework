@@ -331,7 +331,7 @@ Use Maven profiles (qa, dev, prod) to switch between environments seamlessly.
 
 The TestData.json file drives the hotel search test; ensure it contains valid data for destination, checkInDate, checkOutDate, and resultText.
 
-Execution link : https://drive.google.com/file/d/1TTGIofPccfMmsLTNyPy6Hkw_ens_wHGs/view?usp=sharing
+Video of execution : https://drive.google.com/file/d/1TTGIofPccfMmsLTNyPy6Hkw_ens_wHGs/view?usp=sharing
 
 ---
 
