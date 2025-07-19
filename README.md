@@ -49,10 +49,10 @@ AAppiumFramework/
 ├── testng.xml
 
 ├── test-output/
-│   └── screenshots/                    # Test failure screenshots
+│   └── screenshots/                    
 
-├── Execution Recording/               # Test execution video recordings
-├── Reports/                           # Generated test reports
+├── Execution Recording/               
+├── Reports/                           
 
 ├── src/
 │   ├── main/
@@ -331,6 +331,7 @@ Use Maven profiles (qa, dev, prod) to switch between environments seamlessly.
 
 The TestData.json file drives the hotel search test; ensure it contains valid data for destination, checkInDate, checkOutDate, and resultText.
 
+Execution link : https://drive.google.com/file/d/1TTGIofPccfMmsLTNyPy6Hkw_ens_wHGs/view?usp=sharing
 
 ---
 
