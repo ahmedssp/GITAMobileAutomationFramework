@@ -43,33 +43,48 @@ This is a Java-based mobile test automation framework designed for testing mobil
 
 ## 📁 Project Structure
 `````
-AppiumFramework/
-
+AAppiumFramework/
 ├── pom.xml
-├── test-output/                    # ExtentReports + Screenshots
+├── README.md
+├── testng.xml
+
+├── test-output/
+│   └── screenshots/                    # Test failure screenshots
+
+├── Execution Recording/               # Test execution video recordings
+├── Reports/                           # Generated test reports
+
 ├── src/
 │   ├── main/
 │   │   ├── java/
+│   │   │   ├── configurations/
+│   │   │   │   ├── config.dev.properties
+│   │   │   │   ├── config.prod.properties
+│   │   │   │   ├── config.qa.properties
+│   │   │   │   └── extent-reports-config.json
+│   │   │   ├── Handler/
+│   │   │   │   ├── alert_handling.java
+│   │   │   │   ├── HelperClass.java
+│   │   │   │   └── synchronization_methods.java
+│   │   │   ├── Pages/
+│   │   │   │   ├── Page1.java
+│   │   │   │   └── Page2.java
 │   │   │   ├── TestData/
 │   │   │   │   └── TestData.json
 │   │   │   └── utils/
 │   │   │       ├── ConfigReader.java
 │   │   │       ├── ExtentManager.java
-│   │   │       └── ScreenshotUtil.java
-│   │   └── resources/
-│   │       ├── config.qa.properties
-│   │       ├── config.dev.properties
-│   │       └── config.prod.properties
+│   │   │       ├── ScreenshotUtil.java
+│   │   │       └── testing_methods.java
+
 │   └── test/
 │       └── java/
-│           ├── base/
-│           │   └── BaseTest.java
-│           ├── pages/
-│           │   └── Page2.java
-│           ├── tests/
-│           │   └── Test2.java
-│           └── listeners/
-│               └── TestListener.java
+│           ├── Base/
+│           │   ├── BaseTest.java
+│           │   └── Hellper.java
+│           ├── Test/
+│           │   ├── Test.java
+│           │   └── TestListener.java
 `````
 
 🚀 How to Run
