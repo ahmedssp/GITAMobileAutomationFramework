@@ -148,6 +148,19 @@ Start Appium Server:
 ```
 appium
 ```
+if you git an erro like  Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
+you can Kill the Process Using Port 4723 and re run this commands
+'''
+netstat -aon | findstr :4723
+'''
+'''
+taskkill /PID <PID> /F
+'''
+
+Now re-run:
+'''
+appium
+'''
 Configure Device:
 
 Ensure your Android device/emulator is connected and visible via adb devices.
