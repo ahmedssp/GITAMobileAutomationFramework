@@ -148,19 +148,18 @@ Start Appium Server:
 ```
 appium
 ```
-if you git an erro like  Error: listen EADDRINUSE: address already in use 0.0.0.0:4723
-you can Kill the Process Using Port 4723 and re run this commands
-'''
+If you encounter an error such as Error: listen EADDRINUSE: address already in use 0.0.0.0:4723, it means that port 4723 is already in use. To resolve this, you can terminate the process using that port and then rerun the commands.
+
+```
 netstat -aon | findstr :4723
-'''
-'''
+ 
 taskkill /PID <PID> /F
-'''
+```
 
 Now re-run:
-'''
+```
 appium
-'''
+```
 Configure Device:
 
 Ensure your Android device/emulator is connected and visible via adb devices.
